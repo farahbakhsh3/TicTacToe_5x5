@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    tools:context=".ReportsActivity">
+
+
+    <LinearLayout
+        android:id="@+id/reports_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/txt_title0"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:text="@string/title"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+
+            <TextView
+                android:id="@+id/txt_title1"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:text="@string/human"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+            <TextView
+                android:id="@+id/txt_title2"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:text="@string/draw"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+            <TextView
+                android:id="@+id/txt_title3"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:text="@string/AI"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/txt01"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="false"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:text="@string/game_level_beginner"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+
+            <TextView
+                android:id="@+id/txt02"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+            <TextView
+                android:id="@+id/txt03"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+            <TextView
+                android:id="@+id/txt04"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/txt11"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="false"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:text="@string/game_level_easy"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+
+            <TextView
+                android:id="@+id/txt12"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+            <TextView
+                android:id="@+id/txt13"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+            <TextView
+                android:id="@+id/txt14"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/txt21"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:duplicateParentState="false"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:text="@string/game_level_normal"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+
+            <TextView
+                android:id="@+id/txt22"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+            <TextView
+                android:id="@+id/txt23"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+            <TextView
+                android:id="@+id/txt24"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/txt31"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:text="@string/game_level_hard"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+
+            <TextView
+                android:id="@+id/txt32"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+            <TextView
+                android:id="@+id/txt33"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+            <TextView
+                android:id="@+id/txt34"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:layoutDirection="rtl"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:textDirection="rtl" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
